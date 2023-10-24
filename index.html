@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="zn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!--==================== UNICONS 图标====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"
+    />
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>王盈诺个人简历</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header scroll-header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">个人简历</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i>
+                <p i18n="home">主页</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>
+                <p i18n="about">关于我</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>
+                <p i18n="skills">技术</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>
+                <p i18n="portfolio">项目</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>
+                <p i18n="contact">联系</p>
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="0"
+                    y="0"
+                    xlink:href="assets/img/nn.jpg"
+                  />
+                </g>
+              </svg>
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title" i18n="home__title">
+                Hi, I'm WYN
+              </h1>
+              <h3 class="home__subtitle" i18n="home__subtitle">
+                Java 后端开发工程师
+              </h3>
+              <p class="home__description" i18n="home__description">
+                丰富的后端开发经验， 开发过高质量的B/S项目。
+              </p>
+              <a href="#contact" class="button button-flex">
+                <span i18n="home__contact">Contact Me</span>
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt-2 home__scroll-mouse"></i>
+              <span class="home__scroll-name" i18n="home__scroll-name"
+                >鼠标下滑</span
+              >
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title" i18n="about__title">关于我</h2>
+        <span class="section__subtitle" i18n="about__subtitle"
+          >(详细信息)</span
+        >
+        <div class="about__container container grid">
+          <img src="assets/img/yinno.jpg" alt="" class="about__img" />
+
+          <div class="about__data">
+            <!-- <p class="about__description" i18n="about__description">
+              Web developer, with extensive knowledge and years of experience,
+              working in web technologies and Ui / Ux design, delivering quality
+              work.
+            </p> -->
+            <ul style="padding-left: 45px;">
+              <li>
+                <span class="my_message">姓名:</span>&nbsp;王盈诺&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="my_message">性别:</span>&nbsp;女
+                <span class="my_message">年龄:</span>&nbsp;24&nbsp;&nbsp;
+                <span class="my_message">生日:</span>&nbsp;1999/11
+                <span class="my_message">学位:</span>&nbsp;工科学士
+              </li>
+              <br>
+              <li>
+                <span class="my_message">状态:</span>&nbsp;2023年应届毕业生
+                <span class="my_message">毕业院校:</span>&nbsp;河北环境工程学院&nbsp;&nbsp;
+                <span class="my_message">专业:</span>&nbsp;物联网工程专业
+              </li>
+      
+            </ul>
+            <br>
+            <!-- <div class="about__info">
+              <div>
+                <span class="about__info-title">00+</span>
+                <span class="about__info-name" i18n="about__info-name1"
+                  >Years of <br />
+                  experience</span
+                >
+              </div>
+
+              <div>
+                <span class="about__info-title">00+</span>
+                <span class="about__info-name" i18n="about__info-name2"
+                  >Completed <br />
+                  projects</span
+                >
+              </div>
+
+              <div>
+                <span class="about__info-title">00+</span>
+                <span class="about__info-name" i18n="about__info-name3"
+                  >Companies <br />
+                  worked</span
+                >
+              </div>
+            </div> -->
+
+            <div class="about__buttons">
+              <a
+                download=""
+                href="assets/pdf/Java开发_王盈诺_简历.pdf"
+                class="button button--flex"
+              >
+                <span i18n="download">获取详细简历.PDF</span
+                ><i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title" i18n="skills__title">专业技能</h2>
+        <span class="section__subtitle" i18n="skills__subtitle"
+          >My technical level</span
+        >
+
+        <div class="skills__container container grid">
+          <div>
+
+            <!--==================== SKILLS 2 ====================-->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-server-network skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title" i18n="skills__title2">
+                    关于后端
+                  </h1>
+                  <span class="skills__subtitle" i18n="skills__years2"
+                    >点击展开更多哦-></span
+                  >
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">计算机基础(计算机网络、数据结构、操作系统，计算机组成原理、C语言....)</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__base"></div>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Java</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__vue"></div>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">MySQL、Nginx</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__java"></div>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">SSM</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__java"></div>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Springboot</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__base"></div>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Linux</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__base"></div>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">开发工具(IDEA、Git、Maven、Eclipse、Navicat Premium...)</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__java"></div>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">微服务（Eureka、OpenFeign、Nacos、Ribbon、Gateway….）</h3>
+                    <span class="skills__number">40%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__cloud"></div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+                       <!--==================== SKILLS 1 ====================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title" i18n="home__subtitle">
+                    关于前端
+                  </h1>
+                  <span class="skills__subtitle" i18n="skills__years"
+                    >点击展开更多哦-></span
+                  >
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__html"></div>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__number">50%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__css"></div>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__js"></div>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">VUE</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__vue"></div>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">other（jQuery、AJAX、bootstrap、elementUI）</h3>
+                    <span class="skills__number">50%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__css"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section">
+        <h2 class="section__title" i18n="qualification__title">
+          经历
+        </h2>
+        <span class="section__subtitle" i18n="qualification__subtitle"
+          >My personal journey</span
+        >
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              <span i18n="education">教育经历</span>
+            </div>
+
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              <span i18n="work">项目经历</span>
+            </div>
+          </div>
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title" i18n="qualification1__title">
+                    秦皇岛职业技术学院
+                  </h3>
+                  <span
+                    class="qualification__subtitle"
+                    i18n="qualification1__subtitle"
+                    >大专（全日制）</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2018 - 2021
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title" i18n="qualification2__title">
+                   河北环境工程学院
+                  </h3>
+                  <span
+                    class="qualification__subtitle"
+                    i18n="qualification2__subtitle"
+                    >本科（全日制）</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2021-2023
+                  </div>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 3 ====================-->
+              <!-- <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title" i18n="qualification3__title">
+                    Web Development
+                  </h3>
+                  <span
+                    class="qualification__subtitle"
+                    i18n="qualification3__subtitle"
+                    >Self-Study</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2023 - ...
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+              <div class="qualification__content" data-content id="work">
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div></div>
+   
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title" i18n="qualification4__title">
+                    图书馆借阅管理平台
+                  </h3>
+                  <span
+                    class="qualification__subtitle"
+                    i18n="qualification4__subtitle"
+                    >Java、servlet、tomcat、jsp、MySQL、html、js、css、jquery...</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2021.06
+                  </div>
+                </div>
+
+              </div>
+                     <!--==================== QUALIFICATION 2====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title" i18n="qualification1__title">
+                   CRM客户关系管理系统
+                  </h3>
+                  <span
+                    class="qualification__subtitle"
+                    i18n="qualification1__subtitle"
+                    >spring、springMVC、mybatis、mysql、jsp、html、css、js、jquery</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022.09
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+                     <!--==================== QUALIFICATION 3 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title" i18n="qualification1__title">
+                   酒店漏水在线监测平台
+                  </h3>
+                  <span
+                    class="qualification__subtitle"
+                    i18n="qualification1__subtitle"
+                    >RXTX、spring、springMVC、mybatis、mysql、jsp、html、css、js、jquery</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2023.03
+                  </div>
+                </div>
+    
+              </div>
+                     <!--==================== QUALIFICATION 4 ====================-->
+              <div class="qualification__data">
+      
+                <div>
+                  <h3 class="qualification__title" i18n="qualification1__title">
+                    外卖平台
+                  </h3>
+                  <span
+                    class="qualification__subtitle"
+                    i18n="qualification1__subtitle"
+                    >Spring Boot、SSM、Mybatis Plus、Redis、Spring Cache、Linux、Nginx</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2023.06
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title" i18n="qualification1__title">
+                   ......
+                  </h3>
+                  <span
+                    class="qualification__subtitle"
+                    i18n="qualification1__subtitle"
+                    >未完待续</span
+                  >
+
+                </div>
+    
+              </div>
+            </div> 
+              </div> 
+            </div>
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title" i18n="portfolio__title">项目详情</h2>
+        <span class="section__subtitle" i18n="portfolio__subtitle"
+          >Most works</span
+        >
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== PORTFOLIO 1 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/food.png"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title" i18n="portfolio1__title">
+                  外卖平台
+                </h3>
+                <p
+                  class="portfolio__description"
+                  i18n="portfolio1__description"
+                >
+                包括系统管理后台和移动端应用两部分。系统管理后台主要提供给餐饮企业内部员工使用，用于对餐厅的分类、菜品、套餐、订单、员工等进行管理维护。移动端应用主要提供给消费者使用，可以在线浏览菜品、添加购物车、下单等。移动端采用的用户登录方式为短信验证码登录，利用阿里云平台实现。项目采用使用Redis缓存数据，例如：验证码、菜品等，并使用Spring Cache优化代码，提高系统的性能和响应速度、在整个开发过程中使用Linux系统进行部署，充分利用Linux系统的稳定性和安全性、使用Nginx部署前端项目，实现前后端分离的部署方式，提高系统的灵活性和可维护性。
+                </p>
+                <h4>所用技术：Spring Boot、SSM、Mybatis Plus、Redis、Spring Cache、Linux、Nginx</h4>
+                <a
+                  href="https://gitee.com/yinno/git-study.git"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/hotel.png"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title" i18n="portfolio2__title">
+                 酒店漏水在线监测平台
+                </h3>
+                <p
+                  class="portfolio__description"
+                  i18n="portfolio2__description"
+                >
+                本设计是通过STM8单片机控制下的电极式漏水传感器采集系统所需要的数据，再将采集到的数据通过串行通信接口传送至电脑的在线漏水监测平台，系统平台的设计主要分为用户管理，设备管理，酒店管理，订单管理，检修管理5个大部分，为了丰富管理平台的功能，让平台正常运转，以及让平台更加方便、更加人性化，给用户功能添加了用户登录、安全退出以及用户信息管理的功能；设备管理部分也可以实时检测到设备的数据和管理设备的信息；酒店信息也可以进行常规的管理；订单管理部分可以对续约订单和购买设备的订单进行管理；同时也可以对检修工作人员和检修状态信息管理。设计的核心是利用多线程，达到数据的实时上传和更新。
+                </p>
+                <h4>所用技术：RXTX、spring、springMVC、mybatis、mysql、jsp、html、css、js、jquery</h4>
+
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/crm.png"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title" i18n="portfolio3__title">
+                 CRM客户关系管理系统
+                </h3>
+                <p
+                  class="portfolio__description"
+                  i18n="portfolio3__description"
+                >
+                客户关系管理是管理企业与客户之间关系的新型管理机制。主要功能有：市场活动管理、线索（潜在客户）管理、客户管理、交易管理、售后管理、统计报表（主要体现交易数据各个阶段的数据变化）
+                负责范围：该项目的前端的数据展示功能以及后端的的全部功能                
+                </p>
+                <h4>所用技术：spring、springMVC、mybatis、mysql、jsp、html、css、js、jquery</h4>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 4 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/book.png"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title" i18n="portfolio3__title">
+                  图书管理系统
+                </h3>
+                <p
+                  class="portfolio__description"
+                  i18n="portfolio3__description"
+                >
+                项目描述：运用最基础的技术开发出的小型B/S架构项目，实现了图书馆的图书管理系统，主要的功能有图书管理、借阅管理、交易管理、用户管理
+
+                </p>
+                <h4>所用技术：Java、servlet、tomcat、jsp、MySQL、html、js、css、jquery</h4>
+              </div>
+            </div>
+          </div>
+          <!-- add arrows-->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title" i18n="contact__title">联系方式</h2>
+        <br>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-phone-alt contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title" i18n="tel">电话/微信</h3>
+                <span class="contact__subtitle" i18n="tel__number"
+                  >188-4374-2065</span
+                >
+              </div>
+            </div>
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title" i18n="email">E-mail</h3>
+                <span class="contatc__subtitle" i18n="email__address"
+                  >1137662810@qq.com</span
+                >
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title" i18n="location">地址</h3>
+                <span class="contatc__subtitle" i18n="location__detail"
+                  >长春 , 北京</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">王盈诺</h1>
+            <span class="footer__subtitle" i18n="home__subtitle"
+              >后端开发工程师</span
+            >
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#skills" class="footer__link" i18n="skills">技术</a>
+            </li>
+            <br>
+            <li>
+              <a href="#portfolio" class="footer__link" i18n="portfolio">项目</a>
+            </li><br>
+            <li>
+              <a href="#contact" class="footer__link" i18n="contact">联系</a>
+            </li><br>
+          </ul>
+         
+
+        </div>
+        
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- iconfont JS -->
+    <script src="assets/js/iconfont.js"></script>
+    <!-- jquery -->
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+
+    <!-- translate JS -->
+    <script src="assets/js/cn-en-translate.js"></script>
+  </body>
+</html>
